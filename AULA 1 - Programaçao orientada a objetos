@@ -1,0 +1,58 @@
+Primeiro programa (aprendendo) em java :
+
+package pkg;
+import java.util.Scanner;
+
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		
+		  float pi ; Scanner teclado = new Scanner(System.in);
+		  System.out.printf("digite o pi : "); pi = teclado.nextFloat();
+		  
+		  System.out.printf("\no pi digitado foi : "+pi );
+		 
+		  float num ; System.out.println("\n\ndigite um num qualquer: "); num =
+		  teclado.nextFloat();
+		  
+		  System.out.println("o num qualquer digitado foi : "+num);
+		  
+		  char c; System.out.println("\ndigite um char : "); c =
+		  teclado.next().charAt(0);
+		  
+		  System.out.println("o Char digitado : "+c);
+		 
+		  int idade; System.out.println("\ndigite sua idade : "); idade =
+		  teclado.nextInt();
+		  
+		  if(idade>=18) System.out.println("maior de idade"); else
+		  System.out.println("Menor de idade");
+	  
+		System.out.println("\n\ndigite um num qualquer de 1 a 5: ");
+	    int nume = teclado.nextInt();
+	    switch (nume){
+	    case 1:
+	    	System.out.println("O numero digitado foi 1");
+	    	break;
+	    case 2:
+	    	System.out.println("O numero digitado foi 2");
+	    	break;
+	    case 3:
+	    	System.out.println("O numero digitado foi 3");
+	    	break;
+	    case 4:
+	    	System.out.println("O numero digitado foi 4");
+	    	break;
+	    case 5:
+	    	System.out.println("O numero digitado foi 5");
+	    	break;
+	    default:
+	    	System.out.println("O numero digitado foi nenhum entre os 5");
+	    	
+	    }
+	}
+
+}
+
