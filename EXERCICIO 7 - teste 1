@@ -1,0 +1,34 @@
+
+package EX_7;
+import java.util.Scanner;
+
+
+public class Exercicio7 {
+
+	public static void main(String[] args) {
+
+	Scanner teclado = new Scanner(System.in);
+	
+	int n = 3;
+	int vetor[]=new int[3];
+	int i;
+	int num1 ;
+	int num2 ;
+	int num3 ; 
+
+	 System.out.println("digite um numero :");
+	 num2 =teclado.nextInt();
+	 num3 =teclado.nextInt();
+	 num1 =teclado.nextInt();
+	 
+	 for (i=0; i<n; i++) {
+		  vetor[i] = num1; 
+		  
+		  if(vetor[i]>vetor[i]) 
+		  		System.out.println("em ordem : "+vetor[i]); 		 		
+	 	}
+	}
+}
+	
+	
+
