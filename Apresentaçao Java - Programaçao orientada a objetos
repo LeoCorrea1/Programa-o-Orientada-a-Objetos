@@ -68,19 +68,28 @@ public class TESTE1 {
     	
     	Scanner teclado = new Scanner(System.in);
     	
-        int vetor[] = new int [5];
-        int i;
+    	  int i, tam;
+    	  
       
-        for(i=0;i<5;i++) {
+      
+    	 System.out.println("digite o tamanho do vetor");
+    	 tam = teclado.nextInt();
+    	 
+    	 int vetor[] = new int [tam];
+    	 
+        for(i=0;i<tam;i++) {
         	System.out.println("digite o elemento " +i +": ");
         	vetor[i] = teclado.nextInt();
         }
         	
-        for(i=2;i<5;i++) {
+        for(i=0;i<tam;i++) {
         System.out.println("vetor posiçao : " +i + " é : " +vetor[i]); 
         }
+        
     }
  }
+
+
 
 
 
