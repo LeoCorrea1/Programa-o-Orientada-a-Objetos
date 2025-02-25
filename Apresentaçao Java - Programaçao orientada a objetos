@@ -89,6 +89,45 @@ public class TESTE1 {
     }
  }
 
+TESTE COM MATRIZ PARA CORRIJIR : 
+
+package teste1;
+
+import java.util.Scanner;
+
+public class Teste2 {
+    public static void main(String[] args) {
+    	
+    	Scanner teclado = new Scanner(System.in);
+    	
+    	  int i, tam1, tam2;
+    	  
+      
+      
+    	 System.out.println("digite o tamanho da linha da matriz : ");
+    	 tam1 = teclado.nextInt();
+    	 System.out.println("digite o tamanho da coluna da matriz : ");
+    	 tam2 = teclado.nextInt();
+    	 
+    	 int matriz[][] = new int [tam1][tam2];
+    	 
+        for(i=0;i<tam1;i++) {
+        	for(int j=0;j<tam2;j++) {
+        	System.out.println("digite o a  pos " +i +" x " +j);
+        	matriz[i][j] = teclado.nextInt();
+        }
+        	
+        for(i=0;i<tam1;i++) {
+        	 for(int j=0;j<tam2;j++) {
+        		 System.out.println(matriz[i][j]);
+        	 }
+        	 System.out.println();
+        }
+    }
+    }
+}
+
+
 
 
 
