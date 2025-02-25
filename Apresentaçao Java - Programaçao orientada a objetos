@@ -56,3 +56,32 @@ public class Principal {
 
 }
 
+TESTE DE LAÇO COM VETOR
+
+
+package teste1;
+
+import java.util.Scanner;
+
+public class TESTE1 {
+    public static void main(String[] args) {
+    	
+    	Scanner teclado = new Scanner(System.in);
+    	
+        int vetor[] = new int [5];
+        int i;
+      
+        for(i=0;i<5;i++) {
+        	System.out.println("digite o elemento " +i +": ");
+        	vetor[i] = teclado.nextInt();
+        }
+        	
+        for(i=2;i<5;i++) {
+        System.out.println("vetor posiçao : " +i + " é : " +vetor[i]); 
+        }
+    }
+ }
+
+
+
+
