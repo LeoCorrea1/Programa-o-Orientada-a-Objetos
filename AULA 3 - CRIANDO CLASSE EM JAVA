@@ -1,0 +1,30 @@
+PROJETO MAIN: 
+
+package Projeto;
+
+public class Projeto {
+
+	public static void main(String[] args) {
+		int n ;
+		Pessoa p = new Pessoa(); // ATRIBUIR A LETRA P PARA "CHAMAR A CLASSE"
+		
+	System.out.println("Pessoa Instanciada!");
+	System.out.println(p.Nome);
+	System.out.println(p.Idade);
+		
+
+	}
+
+}
+
+PROJETO CLASSE ( DEVE CRIAR UMA CLASSE OVA NO PKG COM O NOME DA CLASSE QUE PREFERIR ) 
+
+package Projeto;
+
+public class Pessoa {
+
+	public String Nome = "Leonardo";
+	public int Idade = 19;
+
+}
+
