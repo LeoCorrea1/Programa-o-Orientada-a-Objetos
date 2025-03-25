@@ -30,7 +30,7 @@ public class Exercicio2 {
         } catch (InputMismatchException e) {
             System.out.println("erro : " + e.toString());
         }
-        catch(Exception e) {
+        catch( ArithmeticException e) {
             System.out.println("erro : " + e.toString());
         }
 
