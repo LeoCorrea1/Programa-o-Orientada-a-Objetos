@@ -6,9 +6,12 @@ public class Principal {
         try {
         System.out.println(numeros[99]);
         }
-        catch ( Exception e) {
+        catch ( ArrayIndexOutOfBoundsException e ) {
             System.out.println("excessao : " + e.getMessage());
             System.out.println("Excessao : " + e.toString());
+        }
+        catch (Exception e) {
+            System.out.println("excessao : " + e.toString());
         }
         System.out.println("programa segue em em execuçao");
         System.out.println(numeros[3]);
@@ -24,7 +27,7 @@ public class Principal {
 //        //exemplo 3
 //        String numero = "abc";
 //        int valor = Integer.parseInt(numero);
-        
+
         }
 
     }
