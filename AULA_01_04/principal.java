@@ -16,9 +16,11 @@ public class principal {
         idade = p.getIdade();
 
         p.setIdade(-220);
-        p.setNome("LEONARDO");
+        p.setNome(p.getNome() + " Correa");
         p.setCpf("32342344444");
         p.ApresentaDados();
+        
+        System.out.println("nome :" + p.getNome() );
     }
 
 }
