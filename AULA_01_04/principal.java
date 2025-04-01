@@ -16,7 +16,9 @@ public class principal {
         idade = p.getIdade();
 
         p.setIdade(-220);
-
+        p.setNome("LEONARDO");
+        p.setCpf("32342344444");
+        p.ApresentaDados();
     }
 
 }
