@@ -1,0 +1,9 @@
+Podem ser desenvolvidas com interface as questões que não pedem atributos na hora de criar a classe abstrata ( de acordo com que realmente cada questão pede )  , por exemplo a questão : 1) Crie uma classe abstrata chamada Conta com os atributos Saldo e Limite. Crie também métodos abstratos para Depositar e Sacar. , Essa não pode, pois não é possível colocar atributos na interface, 
+
+as questões que são possíveis são : 
+3) Faça as implementações dos métodos para uma ContaInvestimento e ContaCorrente e apresente mensagens na tela.
+4) Crie uma interface chamada AcessoDados que contenha os seguintes métodos: conectar(), desconectar(), inserir(), atualizar() e excluir().
+Crie uma classe BancoDeDados que implemente a interface AcessoDados. Implemente os métodos da interface para que eles realizem as operações de conectar-se ao banco de dados, desconectar-se, inserir dados, atualizar dados e excluir dados.
+
+apenas é possível desenvolver com interface, mudando a forma de fazer a questão , por exemplo removendo os atributos e passar para as classes implementadas ;
+
